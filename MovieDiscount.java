@@ -21,7 +21,7 @@ public class MovieDiscount {
 
         // Print the cost of a movie ticket
         double ticket = 14.50;
-        if (age < 13 || age > 65){
+        if (age < 13 || age >= 65){
         	if (coupon) {
         		System.out.println("Your ticket costs $" + (ticket - 5) + ".");
         	}
@@ -33,7 +33,9 @@ public class MovieDiscount {
         	if (coupon){
         		System.out.println("Your ticket costs $" + (ticket - 2) + ".");
         	}
+        	else {
         		System.out.println("Your ticket costs $" + ticket + ".");
+        	}
         }
     }	
 }
