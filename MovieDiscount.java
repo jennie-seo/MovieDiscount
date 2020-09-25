@@ -33,7 +33,7 @@ public class MovieDiscount {
         	if (coupon){
         		System.out.println("Your ticket costs $" + (ticket - 2) + ".");
         	}
-        	System.out.println("Your ticket costs $" + ticket + ".");
+        		System.out.println("Your ticket costs $" + ticket + ".");
         }
     }	
 }
